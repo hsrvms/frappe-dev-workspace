@@ -2,6 +2,11 @@
     "name": "Frappe Bench",
     "forwardPorts": [8000, 9000, 6787],
     "remoteUser": "frappe",
+    "features": {
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest",
+        },
+    },
     "customizations": {
         "codespaces": {
             "repositories": {
