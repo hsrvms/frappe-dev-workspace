@@ -51,6 +51,7 @@
             },
         },
     },
+    "updateContentCommand": "sudo apt-get update && sudo apt-get install htop -y",
     "dockerComposeFile": "./docker-compose.yml",
     "service": "frappe",
     "workspaceFolder": "/workspace/development",
