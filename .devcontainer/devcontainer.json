@@ -10,8 +10,8 @@
     "customizations": {
         "codespaces": {
             "repositories": {
-                "Barket-Salah/Cargo": { "permissions": "read-all" },
-                "Barket-Salah/Barketsalah": { "permissions": "read-all" },
+                "Barket-Salah/Cargo": { "permissions": "write" },
+                "Barket-Salah/Barketsalah": { "permissions": "write" },
             },
         },
         "vscode": {
